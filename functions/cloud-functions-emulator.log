@@ -1,0 +1,86 @@
+2018-04-03T02:10:34.343Z - info: User function triggered, starting execution
+2018-04-03T02:10:34.373Z - info: Execution took 31 ms, user function completed successfully
+2018-04-03T02:10:35.344Z - info: User function triggered, starting execution
+2018-04-03T02:10:35.353Z - info: Execution took 10 ms, user function completed successfully
+2018-04-03T02:10:35.354Z - info: Worker for app closed due to file changes.
+2018-04-04T01:28:17.903Z - info: User function triggered, starting execution
+2018-04-04T01:28:17.923Z - info: Execution took 1041 ms, finished with status: 'crash'
+2018-04-04T01:28:24.231Z - info: User function triggered, starting execution
+2018-04-04T01:28:24.260Z - info: Execution took 1048 ms, finished with status: 'crash'
+2018-04-04T01:28:27.463Z - info: User function triggered, starting execution
+2018-04-04T01:28:27.488Z - info: Execution took 1045 ms, finished with status: 'crash'
+2018-04-04T01:28:28.577Z - info: User function triggered, starting execution
+2018-04-04T01:28:28.585Z - info: Execution took 8 ms, user function completed successfully
+2018-04-04T01:28:28.586Z - info: Worker for app closed due to file changes.
+2018-04-04T01:29:19.852Z - info: User function triggered, starting execution
+2018-04-04T01:29:19.878Z - info: Execution took 1051 ms, finished with status: 'crash'
+2018-04-04T01:29:57.105Z - info: User function triggered, starting execution
+2018-04-04T01:29:57.111Z - info: getRegions
+2018-04-04T01:29:57.112Z - info: queryToData
+2018-04-04T01:29:57.164Z - info: Execution took 1082 ms, finished with status: 'crash'
+2018-04-04T01:31:06.031Z - info: User function triggered, starting execution
+2018-04-04T01:31:06.033Z - info: getRegions
+2018-04-04T01:31:06.035Z - info: queryToData
+2018-04-04T01:31:06.127Z - error:  code=500, status=INTERNAL, message=Function worker killed by signal: SIGTERM, errors=[Function worker killed by signal: SIGTERM]
+2018-04-04T01:31:06.242Z - info: Execution took 1224 ms, finished with status: 'crash'
+2018-04-04T01:32:02.654Z - info: User function triggered, starting execution
+2018-04-04T01:32:02.657Z - info: getRegions
+2018-04-04T01:32:02.660Z - info: queryToData
+2018-04-04T01:32:02.703Z - info: Execution took 1069 ms, finished with status: 'crash'
+2018-04-04T01:33:29.255Z - info: User function triggered, starting execution
+2018-04-04T01:33:29.257Z - info: getRegions
+2018-04-04T01:33:29.258Z - info: queryToData
+2018-04-04T01:33:29.292Z - info: Execution took 1055 ms, finished with status: 'crash'
+2018-04-04T01:33:42.162Z - info: User function triggered, starting execution
+2018-04-04T01:33:42.168Z - info: getRegions
+2018-04-04T01:33:42.171Z - info: queryToData
+2018-04-04T01:33:42.193Z - info: Execution took 1052 ms, finished with status: 'crash'
+2018-04-04T01:33:43.354Z - info: User function triggered, starting execution
+2018-04-04T01:33:43.373Z - info: Execution took 17 ms, user function completed successfully
+Worker for app closed due to file changes.
+2018-04-04T01:33:55.095Z - info: User function triggered, starting execution
+2018-04-04T01:33:55.102Z - info: getRegions
+2018-04-04T01:33:55.104Z - info: queryToData
+2018-04-04T01:33:55.165Z - info: Execution took 1094 ms, finished with status: 'crash'
+2018-04-04T01:36:44.794Z - info: User function triggered, starting execution
+2018-04-04T01:36:44.797Z - info: getRegions
+2018-04-04T01:36:44.798Z - info: queryToData
+2018-04-04T01:36:44.838Z - info: Execution took 1097 ms, finished with status: 'crash'
+2018-04-04T01:38:05.807Z - info: User function triggered, starting execution
+2018-04-04T01:38:05.818Z - info: Execution took 9 ms, user function completed successfully
+Worker for app closed due to file changes.
+2018-04-04T01:41:06.269Z - info: User function triggered, starting execution
+2018-04-04T01:41:06.299Z - info: Execution took 1045 ms, finished with status: 'crash'
+2018-04-04T01:41:53.784Z - info: User function triggered, starting execution
+2018-04-04T01:41:53.792Z - info: Execution took 621 ms, finished with status: 'crash'
+2018-04-04T01:42:15.161Z - info: User function triggered, starting execution
+2018-04-04T01:42:15.171Z - info: Execution took 631 ms, finished with status: 'crash'
+2018-04-04T01:42:16.829Z - info: User function triggered, starting execution
+2018-04-04T01:42:16.845Z - info: Execution took 638 ms, finished with status: 'crash'
+2018-04-04T01:42:44.857Z - info: User function triggered, starting execution
+2018-04-04T01:42:44.865Z - info: Execution took 10 ms, user function completed successfully
+2018-04-04T01:47:02.155Z - info: User function triggered, starting execution
+2018-04-04T01:47:02.161Z - info: { projectId: 'escapableapp',
+  databaseURL: 'https://escapableapp.firebaseio.com',
+  storageBucket: 'escapableapp.appspot.com',
+  credential: 
+   ApplicationDefaultCredential {
+     credential_: RefreshTokenCredential { refreshToken_: [Object] } } }
+2018-04-04T01:47:02.168Z - info: Execution took 15 ms, user function completed successfully
+2018-04-04T01:47:02.170Z - info: Worker for app closed due to file changes.
+2018-04-04T20:41:18.051Z - info: User function triggered, starting execution
+2018-04-04T20:41:18.061Z - info: { projectId: 'escapableapp',
+  databaseURL: 'https://escapableapp.firebaseio.com',
+  storageBucket: 'escapableapp.appspot.com',
+  credential: 
+   ApplicationDefaultCredential {
+     credential_: RefreshTokenCredential { refreshToken_: [Object] } } }
+2018-04-04T20:41:18.077Z - info: Execution took 29 ms, user function completed successfully
+2018-04-04T20:42:12.132Z - info: User function triggered, starting execution
+2018-04-04T20:42:12.884Z - info: Execution took 1381 ms, finished with status: 'crash'
+2018-04-04T20:43:41.846Z - info: User function triggered, starting execution
+2018-04-04T20:43:42.403Z - info: Execution took 1184 ms, finished with status: 'crash'
+2018-04-04T20:46:06.789Z - info: User function triggered, starting execution
+2018-04-04T20:46:07.268Z - info: Execution took 891 ms, finished with status: 'crash'
+2018-04-04T20:49:15.379Z - info: User function triggered, starting execution
+2018-04-04T20:49:15.921Z - info: Execution took 962 ms, finished with status: 'crash'

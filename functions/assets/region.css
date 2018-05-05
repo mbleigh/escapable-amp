@@ -1,0 +1,113 @@
+.location.card {
+  margin: 8px auto 12px;
+  max-width: 480px;
+  overflow: hidden;
+}
+
+.location.card.featured {
+  border-top: 3px solid #2979ff;
+}
+
+.location.card .featured {
+  position: relative;
+  background: #448aff;
+}
+
+.location.card .featured span {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  float: right;
+  font-size: 12px;
+  color: #2979ff;
+  text-transform: uppercase;
+  z-index: 100;
+}
+
+.location.card .featured span .material-icons {
+  font-size: 14px;
+}
+
+.location.card .address {
+  font-size: 13px;
+  color: #90a4ae;
+  padding: 0 16px;
+  margin: 0 0 4px;
+}
+
+.location.card h2 {
+  font-size: 20px;
+  padding: 16px 16px 4px;
+  margin: 0;
+}
+
+.location.card amp-accordion {
+  margin: 8px 0;
+}
+
+.location.card amp-accordion section {
+  border-bottom: 1px solid #eceff1;
+}
+
+.location.card amp-accordion section > :last-child {
+  display: none;
+}
+
+.location.card amp-accordion section[expanded] > :last-child {
+  display: block;
+}
+
+.location.card amp-accordion h3 {
+  background: white;
+  color: #ff7043;
+  border: 0;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  border-width: 1px solid rgba(0, 0, 0, 0.2);
+  flex-direction: row;
+  line-height: 24px;
+  margin: 0;
+}
+
+.location.card amp-accordion h3:focus {
+  background: #eceff1;
+  outline: 0;
+}
+
+.location.card amp-accordion h3 .players {
+  float: right;
+  color: #90a4ae;
+  font-weight: 300;
+}
+
+.location.card amp-accordion h3:active {
+  outline: 0;
+}
+
+.location.card amp-accordion p {
+  padding: 8px 16px 8px;
+  margin: 0;
+}
+
+.aspects {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 8px 16px 16px;
+}
+
+.aspects li {
+  border: 1px solid #eceff1;
+  color: #546e7a;
+  border-radius: 18px;
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 8px;
+  padding: 8px 12px;
+}
+
+.aspects li.positive {
+  border-color: #eceff1;
+  color: #43a047;
+}
