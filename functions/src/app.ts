@@ -56,6 +56,9 @@ async function bucketProxy(req: express.Request, res: express.Response) {
   rs.on("finish", () => {
     console.log("file stream took", Date.now() - t0, "ms");
   });
+  rs.on("error", err => {
+    res.status(404).send('Not Found');
+  });
 }
 
 app.get("/amp/:region", bucketProxy);
