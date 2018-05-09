@@ -4,7 +4,7 @@ import { RegionPage } from "./pages";
 import { optimize } from "./render";
 import * as request from "request-promise";
 
-const ORIGIN = "https://escapableapp.firebaseapp.com";
+const ORIGIN = "https://escapable.app";
 
 async function writeAndPurge(path: string, data: string): Promise<any> {
   const objectPath = path + ".html";

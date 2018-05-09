@@ -8,7 +8,7 @@ const app = express();
 app.use(compression());
 
 function handler(fn) {
-  return async function(req, res) {
+  return async function (req, res) {
     try {
       await fn(req, res);
     } catch (e) {

@@ -9,7 +9,7 @@ function stylesheet(name): string {
   return cachedStyles[name];
 }
 
-export function render({ title, body, styles = [] }: { title?: string; body: any; styles?: string[] }) {
+export function render({ title, body, styles = [], canonical }: { title?: string; body: any; styles?: string[], canonical?: string }) {
   return `
   <!doctype html>
   <html ⚡>
@@ -17,7 +17,9 @@ export function render({ title, body, styles = [] }: { title?: string; body: any
   <meta charset="utf-8">
   <!-- <link href="https://fonts.googleapis.com/css?family=Rubik:300,500|Material+Icons" rel="stylesheet"> -->
   <title>${title || "Escapable - Escape Room Directory"}</title>
-  <link rel="canonical" href="./regular-html-version.html">
+  ${canonical ? `<link rel="canonical" href="${canonical}">` : ''}
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ff5722">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <style amp-custom>
   ${stylesheet("common")}

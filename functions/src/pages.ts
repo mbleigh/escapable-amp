@@ -5,6 +5,7 @@ import LocationCard from "./components/LocationCard";
 export function RegionPage({ region, locations, rooms }: { region: Region; locations: Location[]; rooms: Room[] }): string {
   return render({
     title: `${region.name} Escape Rooms - Escapable`,
+    canonical: `/${region.__id__}`,
     body: `
 <h1>${region.name} Escape Rooms</h1>
 <div class="cards">
